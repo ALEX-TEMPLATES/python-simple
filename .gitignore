@@ -39,6 +39,8 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+
+
 .nox/
 .coverage
 .coverage.*
@@ -172,3 +174,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# uv
+uv.lock
+
+# Windsurf, Cursor
+.windsurf/
+.cursor,
+.cursorrules
